@@ -199,6 +199,14 @@ article .program .break{
     color: #00d2fb;
 }
 
+article .pres{
+    width: 250px;
+    border-radius: 5px;
+    padding: 0px;
+    border: 5px solid #262626;
+}
+
+
 
 footer {
     padding: 1em;
@@ -215,5 +223,24 @@ footer a > img {
     vertical-align: middle;
 }
 
+
+blockquote.modern {
+  background: #262626;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 100px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.modern:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote.modern p {
+      display: inline;
+}
 
 
