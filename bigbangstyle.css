@@ -1,3 +1,9 @@
+/* Defined variables */
+:root {
+    --bbnfblue: #00d2fb;
+}
+
+
 body {
     background-color: black;
     color: white;
@@ -57,8 +63,8 @@ nav li a {
 nav li a:hover, nav li a:focus {
     /*color: #000;*/
     text-shadow: 0 1px 0 rgba(0,0,0,.2);
-    background: #00d2fb;
-    background: linear-gradient(#00d2fb, #00bde2);
+    background: var(--bbnfblue);
+    background: linear-gradient(var(--bbnfblue), #00bde2);
 }
 
 nav li a:active {
@@ -67,8 +73,8 @@ nav li a:active {
 
 nav li a.select {
     text-shadow: 0 1px 0 rgba(0,0,0,.2);
-    background: #00d2fb;
-    background: linear-gradient(#00d2fb, #00bde2);
+    background: var(--bbnfblue);
+    background: linear-gradient(var(--bbnfblue), #00bde2);
 }
  
 nav li:first-child a {
@@ -114,7 +120,7 @@ article {
     padding-bottom: 3em;
 }
 article a{
-    color: #00d2fb;
+    color: var(--bbnfblue);
 }
 
 article h2 {
@@ -125,7 +131,7 @@ article h2 {
 article h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    color: #00d2fb;
+    color: var(--bbnfblue);
 
     /*font-size: 1.2em;*/
     /*text-transform: uppercase;*/
@@ -133,7 +139,7 @@ article h2 {
 }
 
 article .col{
-    color: #00d2fb;
+    color: var(--bbnfblue);
 }
 
 article .linehead{
@@ -196,14 +202,18 @@ article .program .break{
     line-height: 250%;
     font-style: italic;
     font-weight: bold;
-    color: #00d2fb;
+    color: var(--bbnfblue);
 }
 
-article .pres{
+article img.pres{
     width: 250px;
     border-radius: 5px;
     padding: 0px;
-    border: 5px solid #262626;
+    border: 4px solid #262626;
+    margin: 2px;
+}
+article img.pres:hover {
+    box-shadow: 0 0 10px 4px rgba(0, 210, 251, 0.5);
 }
 
 
