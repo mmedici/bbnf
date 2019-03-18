@@ -346,7 +346,7 @@ a:hover, a:active, a:focus {
 }
 
 .parallax-window {
-  min-height: 25vh;
+  min-height: 200px;
   background: transparent;
 }
 
