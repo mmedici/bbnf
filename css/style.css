@@ -111,23 +111,6 @@ a:hover, a:active, a:focus {
   box-sizing: border-box;
 }
 
-.overlay {
-  background: rgba(0,0,0,0.4);
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.parallax-section {
-  background-attachment: fixed !important;
-  background-size: cover !important;
-  overflow: hidden;
-}
-
 
 /*---------------------------------------
     Preloader section              
@@ -339,6 +322,34 @@ a:hover, a:active, a:focus {
     Home section              
 -----------------------------------------*/
 
+.overlay {
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main-test .overlay {
+  height: 25vh;
+}  
+
+
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  overflow: hidden;
+}
+
+.parallax-window {
+  min-height: 25vh;
+  background: transparent;
+}
+
 #home {
     background-size: cover;
     background-position: center center;
@@ -362,6 +373,10 @@ a:hover, a:active, a:focus {
 
 .main-general {
   background: url('../img/Poster_NoText_Large.jpg') no-repeat;
+  height: 25vh;
+}
+
+.main-test {
   height: 25vh;
 }
 
