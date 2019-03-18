@@ -371,7 +371,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../img/Poster_NoText_Large.jpg') no-repeat;
+  /*background: url('../img/Poster_NoText_Large.jpg') no-repeat;*/
   height: 100vh;
 }
 
