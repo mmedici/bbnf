@@ -3,6 +3,7 @@
     --bbnfblue_org: #00d2fb;
     --bbnfblue: #00bde2;
     --textlh: 22px;
+    --textcol: #333;
 }
 
 body {
@@ -57,7 +58,7 @@ h4 {
 }
 
 p {
-    color: #333;
+    color: var(--textcol);
     font-size: 15px;
     font-weight: 300;
     line-height: var(--textlh);
@@ -394,6 +395,36 @@ a:hover, a:active, a:focus {
   height: 15vh;
 }
 
+/*---------------------------------------
+    Index page              
+-----------------------------------------*/
+
+.service-list{
+  padding:0 0 0 0;
+  margin-bottom:20px;
+}
+.service-list-col1{
+  float:left;
+  width:60px;
+}
+.service-list-col1 i{
+  font-style:normal;
+  font-size:38px;
+  /*display:block;*/
+  /*color:#222;*/
+  /*font-family: 'FontAwesome';*/
+  line-height:38px;
+}
+.service-list-col2{
+  overflow:hidden;  
+}
+
+.service-list-col2 h3{
+  margin: 0;
+  font-size: 14px;  
+  text-transform: uppercase;
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -407,18 +438,18 @@ a:hover, a:active, a:focus {
 }
 
 #home .btn {
-  background: #ffffff;
-  border: 2px solid #ffffff;
-  border-radius: 100px;
-  color: #444;
-  font-family: 'Merriweather', serif;
-  font-size: 10px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 13px 22px 11px 22px;
-  margin-top: 42px;
-  transition: all 0.3s ease-in-out;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    color: #444;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 13px 22px 11px 22px;
+    margin-top: 42px;
+    transition: all 0.3s ease-in-out;
 }
 
 #home .btn:hover {
@@ -427,17 +458,111 @@ a:hover, a:active, a:focus {
   color: #ffffff;
 }
 
+.advert {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    /*height: auto;*/
+    margin: 4% 3% 3% 1%;
+    border-radius: 5px;
+    border: 2px solid rgb(100, 100, 100);
+    transition: all 0.5s ease-in-out;
+}
+
+.advert:hover {
+    box-shadow: 0 0 10px 4px rgba(0, 210, 251, 0.5);
+}
+
+.advert-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.advertoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 5px;
+    transition: .5s ease;
+    background-color: rgba(250, 250, 250, 0.90);
+}
+
+.advert:hover .advertoverlay {
+    opacity: 1;
+}
+
+.adverttext {
+    color: var(--textcol);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    -webkit-transform: translate(-33%, -15%);
+    -ms-transform: translate(-33%, -15%);
+    transform: translate(-33%, -15%);
+    text-align: center;
+}
+
+.advertbtn {
+    background: #00bde2;
+    display: inline-block;
+    border-radius: 100px;
+    color: #444;
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 26px 16px 26px;
+    margin-top: 35px;
+    margin-bottom: 17px;
+    transition: all 0.3s ease-in-out;
+}
+
+.advertbtn:hover {
+  background: #00d2fb;
+  color: #444;
+  text-decoration: none;
+}
+
+.index_header h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.index_header h4 {
+    padding-bottom: 20px;
+}
+
+.index_text_main {
+    margin-top: 36px;
+}
+
+.alternate_color {
+    background-color: #eff;
+
+}
+
+
 /*---------------------------------------
    Content sections              
 -----------------------------------------*/
 
-#about,#people {
+#about {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 @media (min-width:768px) {
-  #about,#people {
+  #about {
     padding-top: 40px;
     padding-bottom: 40px;
   }
