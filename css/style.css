@@ -507,6 +507,29 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+
+.advertbtn_s {
+    background: #00bde2;
+    display: inline-block;
+    border-radius: 100px;
+    color: #444;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 12px 20px 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.advertbtn_s:hover {
+  background: #00d2fb;
+  color: #444;
+  text-decoration: none;
+}
+
 .index_header h2 {
     text-transform: uppercase;
     padding-bottom: 10px;
@@ -751,7 +774,7 @@ a.list-group-item {
    Om os section              
 -----------------------------------------*/
 
-#people .name{
+#about .name{
     letter-spacing: 1px;
     font-size: 1em;
     line-height: normal;
@@ -761,14 +784,14 @@ a.list-group-item {
     text-transform: uppercase;
 }
 
-#people .title{
+#about .title{
     font-size: 0.8em;
     line-height: 0.5em;
     color: var(--bbnfblue);
     padding-bottom: 15px;
 }
 
-#people .text{
+#about .text{
     line-height: normal;
     font-size: 0.8em;
     /*padding-bottom: 15px;*/
