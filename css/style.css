@@ -28,10 +28,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 62px;
-    padding-bottom: 14px;
+    font-size: 42px;
+    padding-bottom: 20px;
     margin-bottom: 0px;
 }
+
+
+@media (min-width:768px) {
+  h1 {
+      font-size: 62px;
+      padding-bottom: 14px;
+      margin-bottom: 0px;
+  }
+}
+
 
 h2 {
     font-size: 32px;
@@ -498,6 +508,12 @@ a:hover, a:active, a:focus {
     padding: 18px 26px 16px 26px;
     margin-top: 35px;
     margin-bottom: 17px;
+    cursor: pointer;
+    /*allows to say whether users can mark the text*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     transition: all 0.3s ease-in-out;
 }
 
@@ -509,24 +525,30 @@ a:hover, a:active, a:focus {
 
 
 .advertbtn_s {
-    background: #00bde2;
+    background: var(--bbnfblue);
     display: inline-block;
     border-radius: 100px;
-    color: #444;
+    color: var(--textcol);
     font-family: 'Merriweather', serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 12px 20px 10px 20px;
-    margin-top: 15px;
-    margin-bottom: 12px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /*allows to say whether users can mark the text*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     transition: all 0.3s ease-in-out;
 }
 
 .advertbtn_s:hover {
-  background: #00d2fb;
-  color: #444;
+  background: var(--bbnfblue_org);
+  color: var(--textcol);
   text-decoration: none;
 }
 
@@ -635,10 +657,6 @@ img.pres:hover {
     top: 0.25em;
 }
 
-a.list-group-item:focus,
-a.list-group-item:hover {
-    background-color: rgba(0,210,251,0.2);
-}
 
 blockquote.modern {
   background: #eee;
@@ -710,6 +728,214 @@ blockquote.modern p {
 }
 
 
+
+/*---------------------------------------
+   Materiale checkbox selection and items             
+-----------------------------------------*/
+
+ul.checkboxtags {
+    list-style: none;
+    padding: 0px;
+    margin: 12px 0px 5px 0px;
+    text-align: center;
+}
+ul.checkboxtags li{
+  display: inline;
+}
+
+ul.checkboxtags li label{
+    display: inline-block;
+    /*background-color: rgba(255, 255, 255, .9);*/
+    color: var(--textcol);
+    font-weight: 300;
+    border: 2px solid rgba(139, 139, 139, .3);
+    border-radius: 25px;
+    margin: 5px 0px;
+    padding: 3px 10px;
+    cursor: pointer;
+    /*demands that whitespace will not e wrapped to next line, not really relevant here*/
+    /*white-space: nowrap;*/
+    -webkit-touch-callout: none;
+    /*allows to say whether users can mark the text*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*sets the color of the element being tapped*/
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.checkboxtags li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 13px;
+    padding: 2px 6px 2px 2px;
+    content: "\f067";
+    transition: transform .3s ease-in-out;
+}
+
+ul.checkboxtags li input[type="checkbox"]:checked + label::before {
+    content: attr(data-icon); /*"\f00c";*/
+    padding: 2px 5.8px 2px 0.5px;
+    /*spinning fancy effect, does not fit this crowd*/
+    /*transform: rotate(-360deg);*/
+    /*transition: transform .3s ease-in-out;*/
+}
+
+ul.checkboxtags li input[type="checkbox"]:checked + label {
+    border: 2px solid var(--bbnfblue);
+    background-color: var(--bbnfblue);
+    color: #fff;
+    transition: all .2s;
+}
+
+ul.checkboxtags li label::after {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 13px;
+    padding: 2px 0.5px 2px 5.8px;
+
+}
+
+ul.checkboxtags li input[type="checkbox"]:checked + label::after {
+    /*content: attr(data-icon);*/
+}
+
+/*remove 'standard' checkboxes*/
+ul.checkboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+ul.checkboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+/*add border color for the focused boxes*/
+ul.checkboxtags li input[type="checkbox"]:focus + label {
+  /*border: 2px solid #e9a1ff;*/
+}
+
+
+/*resultsboxes*/
+
+ul.catalog {
+    list-style: none;
+    padding: 0px;
+    margin: 12px 0px 5px 0px;
+    text-align: center;
+}
+
+a.cardlink {
+  position: relative;
+  display: block;
+  padding: 3px 10px 3px 35px;
+  text-decoration: none;
+  color: var(--textcol);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul.catalog > li{
+  display: inline-block;
+  text-align: left;
+  /*background-color: rgba(255, 255, 255, .9);*/
+  width: 400px;
+  border: 1px solid rgba(139, 139, 139, .3);
+  border-radius: 4px;
+  margin: 3px 3px;
+}
+@media (min-width: 768px) {
+  ul.catalog li{
+    width: 300px;
+  }
+}
+
+ul.catalog > li:hover{
+  box-shadow: 0 0 10px 4px rgba(0, 210, 251, 0.5);
+  top: -5px;
+}
+
+ul.catalog li h5 {
+  margin: 3px 0 4px 0;
+  height: 34px;
+  width: 87%;
+  line-height: 18px;
+}
+
+p.desc {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+ul.catalog li div.type {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+  width: 18px;
+}
+
+ul.catalog li ul.topics {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 13px;
+  list-style: none;
+  /*text-align: center;*/
+  padding: 0px;
+  margin: 0px; 
+}
+ul.catalog li ul.topics li {
+  color: var(--textcol);
+  text-align: center;
+  width: 18px;
+}
+
+div.linktype {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(139, 139, 139, .3);
+  padding: 8px;
+  border-radius: 0px 2px 0px 2px;
+  height: 38px;
+  width: 38px;
+  text-align: center;
+  font-size: 15pt;
+  /*margin: 0px;*/
+}
+
+span.testfill {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 100%;
+  border-radius: 2px 0 0 2px;
+  background-color: rgba(139, 139, 139, .3);
+}
+
+p.result_filler {
+  margin-bottom: 500px;
+}
+
 /*---------------------------------------
    List group items             
 -----------------------------------------*/
@@ -719,56 +945,29 @@ a.list-group-item {
     margin: 10px 0;
 }*/
 
-.list-group-item h2 {
+a.list-group-item:focus,
+a.list-group-item:hover {
+    background-color: rgba(0,210,251,0.2);
+}
+
+.list-group-item h3 {
     padding: 0;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .list-group-item p {
     padding: 0;
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 /*---------------------------------------
-   Gallery section              
+   Vidoes             
 -----------------------------------------*/
 
-#gallery span {
-  display: block;
-  padding-bottom: 32px;
+.listvideos {
+  margin-bottom: 30px;
 }
-
-#gallery .col-md-6 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-#gallery .gallery-thumb {
-  background-color: #ffffff;
-  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-  cursor: pointer;
-  display: block;
-  position: relative;
-  top: 0px;
-  transition: all 0.4s ease-in-out;
-}
-
-#gallery .gallery-thumb:hover {
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  top: -5px;
-}
-
-#gallery .gallery-thumb img {
-  width: 100%;
-}
-
-#gallery .col-md-12 p {
-  padding-top: 22px;
-  text-align: center;
-}
-
-
 
 /*---------------------------------------
    Om os section              
