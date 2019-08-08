@@ -446,15 +446,23 @@ a:hover, a:active, a:focus {
     position: relative;
     display: inline-block;
     width: 35%;
-    /*height: auto;*/
-    margin: 4% 3% 3% 1%;
+    margin: var(--textlh);
     border-radius: 5px;
     border: 2px solid rgb(100, 100, 100);
-    transition: all 0.5s ease-in-out;
 }
+
+@media (min-width:992px) {
+  .advert {
+    width: 80%;
+    margin: 10%;
+  }
+}
+
 
 .advert:hover {
     box-shadow: 0 0 10px 4px rgba(0, 210, 251, 0.5);
+    transition: all 0.5s ease-in-out;
+
 }
 
 .advert-img {
@@ -489,9 +497,9 @@ a:hover, a:active, a:focus {
     position: absolute;
     left: 40%;
     top: 40%;
-    -webkit-transform: translate(-33%, -15%);
-    -ms-transform: translate(-33%, -15%);
-    transform: translate(-33%, -15%);
+    -webkit-transform: translate(-33%, -20%);
+    -ms-transform: translate(-33%, -20%);
+    transform: translate(-33%, -20%);
     text-align: center;
 }
 
@@ -712,12 +720,16 @@ blockquote.modern p {
 }
 
 .program ul > li > ul > li {
-    margin-left: 2em;
+    margin-left: -6em;
+    padding-left:2.4em;
+    text-indent:-2.4em;    
 }
 
 .program li {
     font-family: 'Roboto Mono', monospace;
     font-size: 10pt;
+    padding-left:8.2em;
+    text-indent:-8.2em;
 }
 
 .program .break{
