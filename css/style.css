@@ -365,18 +365,9 @@ a:hover, a:active, a:focus {
 
 @media (min-width:768px) {
   .main-general {
-    height: 25vh;
+    height: 20vh;
+    max-height: 250px;
   }
-}
-
-.main-workshop {
-  background: url('../img/wshead.jpg') no-repeat;
-  height: 25vh;
-}
-
-.main-tilmelding {
-  background: #111;
-  height: 15vh;
 }
 
 /*---------------------------------------
