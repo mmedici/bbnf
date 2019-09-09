@@ -2,7 +2,9 @@
 :root {
     --bbnfblue_org: #00d2fb;
     --bbnfblue: #00bde2;
+    --bbnfgrey: #eeeeee;
     --textlh: 22px;
+    --textsz: 15px;
     --textcol: #333;
 }
 
@@ -449,7 +451,6 @@ a:hover, a:active, a:focus {
   }
 }
 
-
 .advert:hover {
     box-shadow: 0 0 10px 4px rgba(0, 210, 251, 0.5);
     transition: all 0.5s ease-in-out;
@@ -658,7 +659,7 @@ img.pres:hover {
 
 
 blockquote.modern {
-  background: #eee;
+  background: var(--bbnfgrey);
   font-size: 15px;
   line-height: var(--textlh);
   font-weight: 300;
@@ -835,16 +836,19 @@ ul.catalog {
     text-align: center;
 }
 
-a.cardlink {
+.cardlink {
   position: relative;
   display: block;
   padding: 3px 10px 3px 35px;
-  text-decoration: none;
   color: var(--textcol);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+a.cardlink {
+  text-decoration: none;
 }
 
 ul.catalog > li{
@@ -937,6 +941,111 @@ span.testfill {
 
 p.result_filler {
   margin-bottom: 500px;
+}
+
+/*---------------------------------------
+   Collapsibles             
+-----------------------------------------*/
+
+details.panel {
+  margin: 1rem auto;
+  padding: 0 1rem;
+  /*width: 35em;*/
+  max-width: calc(100% - 4rem);
+  position: relative;
+  /*border: 1px solid #78909C;*/
+  border-radius: 0px;
+  background-color: var(--bbnfgrey);
+  /*transition: background-color 0.5s;*/
+}
+
+details.panel > :last-child {
+    margin-bottom: 0.6rem;
+}
+/*details.panel[open] {
+    background-color: var(--bbnfgrey);
+}*/
+
+details.panel summary {
+  padding: 1rem 2em 1rem 0;
+  display: block;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+  
+details.panel summary::before, details.panel summary::after {
+    width: .9em;
+    height: 4px;
+    position: absolute;
+    top: calc(10px + 1rem + 4px);
+    right: 15px;
+    content: '';
+    background-color: currentColor;
+    text-align: right;
+    transform: translateY(-50%);
+    transition: transform .5s;
+} 
+
+details.panel summary::after {
+    transform: translateY(-50%) rotate(90deg);
+}  
+
+details.panel[open] summary::after {
+      transform: translateY(-50%) rotate(-180deg);
+}
+details.panel[open] summary::before {
+      transform: translateY(-50%) rotate(-180deg);
+}
+  
+details.panel summary::-webkit-details-marker {
+    display: none;
+}
+
+details.panel summary:focus {
+    outline: 0;
+}
+
+/*---------------------------------------
+   Tables for forlob             
+-----------------------------------------*/
+
+.tf {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: calc(100% - 4rem);
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.tf, .tf td {
+    border: 3px solid var(--bbnfgrey);
+}
+
+
+.tf td {
+    font-size: 15px;
+    padding:10px 5px;
+    overflow:hidden;
+    word-break:normal;
+}
+.tf .tf-hd, .tf .tf-lfhd{
+    font-weight:bold;
+    text-align:left;
+    vertical-align:middle;
+    background-color: rgba(0,210,251,0.2);
+}
+.tf .tf-lfhd{
+    width: 18%;
+}
+
+.tf .tf-reg {
+    text-align:left;
+    vertical-align:top;
+    background-color: white;
+
 }
 
 /*---------------------------------------
