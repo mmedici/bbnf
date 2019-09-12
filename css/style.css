@@ -1031,7 +1031,7 @@ details.panel summary:focus {
     overflow:hidden;
     word-break:normal;
 }
-.tf .tf-hd, .tf .tf-lfhd{
+.tf .tf-hd, .tf .tf-lfhd, .tf .tf-lfhd_sm, .tf .tf-hd_lg{
     font-weight:bold;
     text-align:left;
     vertical-align:middle;
@@ -1039,6 +1039,12 @@ details.panel summary:focus {
 }
 .tf .tf-lfhd{
     width: 18%;
+}
+.tf .tf-hd_lg{
+    width: 50%;
+}
+.tf .tf-lfhd_sm{
+    width: 10%;
 }
 
 .tf .tf-reg {
