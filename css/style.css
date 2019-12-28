@@ -1033,7 +1033,6 @@ details.panel summary:focus {
 }
 .tf .tf-hd, .tf .tf-lfhd, .tf .tf-lfhd_sm, .tf .tf-hd_lg{
     font-weight:bold;
-    text-align:left;
     vertical-align:middle;
     background-color: rgba(0,210,251,0.2);
 }
@@ -1051,7 +1050,36 @@ details.panel summary:focus {
     text-align:left;
     vertical-align:top;
     background-color: white;
+}
 
+.tf .tf-rot_hd {
+    width: 35px;
+    font-weight:bold;
+    text-align:left;
+    vertical-align:top;
+    height:90px;
+    white-space: nowrap;
+    background-color: rgba(0,210,251,0.2);
+}
+
+.tf .tf-rot {
+    width: 35px;
+    font-weight:bold;
+    text-align:left;
+    vertical-align:top;
+    height:100px;
+    white-space: nowrap;
+    background-color: white;
+}
+.tf .rotate_text {
+    -moz-transform:rotate(90deg); 
+    -moz-transform-origin: top right;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: top right;
+    -o-transform: rotate(90deg);
+    -o-transform-origin:  top right;
+    position:relative;
+    top:20px;
 }
 
 /*---------------------------------------
