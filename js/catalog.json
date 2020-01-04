@@ -1,0 +1,1066 @@
+// JSON array with information, to be loaded as a separate document later
+var catalog = {"items": [
+    {
+    "title": "Big Bang",
+    "topics": ["bigbang",],
+    "subjects": ["fk"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/01_BigBang.pdf"
+    },
+    {
+    "title": "Grundstoffer",
+    "topics": ["grund",],
+    "subjects": ["fk"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/02_Grundstofferne.pdf"
+    },
+    {
+    "title": "Galakser, stjerner & planeter",
+    "topics": ["galakser",],
+    "subjects": ["fk"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/03_GalakserStjernerPlaneter.pdf"
+    },
+    {
+    "title": "Jordens Struktur",
+    "topics": ["jorden",],
+    "subjects": ["fk","g"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/04_JordensStruktur.pdf"
+    },
+    {
+    "title": "Atmosfære & vand",
+    "topics": ["atmo",],
+    "subjects": ["fk","g"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/05_VandAtmosfaere.pdf"
+    },
+    {
+    "title": "Første liv",
+    "topics": ["firstlife",],
+    "subjects": ["g","b"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/06_DetTidligsteLiv.pdf"
+    },
+    {
+    "title": "Fotosyntese",
+    "topics": ["foto",],
+    "subjects": ["fk","b"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/07_Fotosyntese.pdf"
+    },
+    {
+    "title": "Celler",
+    "topics": ["cell",],
+    "subjects": ["b"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/08_Celler.pdf"
+    },
+    {
+    "title": "DNA",
+    "topics": ["dna",],
+    "subjects": ["b"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/09_DNA.pdf"
+    },
+    {
+    "title": "Evolution",
+    "topics": ["evo",],
+    "subjects": ["b"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/10_Evolution.pdf"
+    },
+    {
+    "title": "Arter",
+    "topics": ["arter",],
+    "subjects": ["b"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/11_Arter.pdf"
+    },
+    {
+    "title": "Forfædre",
+    "topics": ["forfader",],
+    "subjects": ["b"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/12_Forfader.pdf"
+    },    
+    {
+    "title": "Moderne menneskers succes",
+    "topics": ["modern",],
+    "subjects": ["g"],
+    "type": "know",
+    "desc": "Kort gennemgang af de relevante koncepter med brugbare figurer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/vidensmateriale/13_ModerneMenneske.pdf"
+    },
+
+
+
+
+
+    {
+    "title": "Tidlinje for universet",
+    "topics": ["bigbang"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Ide: Visuel tidslinje ved hjælp af e.g. toiletrulle eller undersøge hvor hver begivenhed skal lægges hvis hele skolegården repræsenterer universets tidslinje",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Byg-selv spektroskop",
+    "topics": ["grund"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Ved hjælp af et hjemmelavet spektroskop kan eleverne studere diverse lyskilder og få en fornemmelse af hvad spektroskopi er og hvordan lys er opdelt i bølgelængder",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/BygSelvSpektroskop.pdf"
+    },
+    {
+    "title": "Spektroskopi af exoplaneter",
+    "topics": ["grund","galakser"],
+    "subjects": ["fk","b"],
+    "type": "exp",
+    "desc": "Gennem øvelsen opnås en bedre forståelse for spektroskopi og spektroskopiens betydning for detektering af liv på exoplaneter.",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/SpektroskopiExoplaneter.pdf"
+    },    {
+    "title": "UV beskyttelse af en flakse tonic",
+    "topics": ["grund"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Ved en række demonstrationer opnår eleverne en visuel forståelse af hvordan solcreme kan beskytte imod UV stråler fra solen",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/UVbeskyttelse.pdf"
+    },
+    {
+    "title": "Det periodiske system",
+    "topics": ["grund"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Opgavesæt fra lærere på Krogårdskolen til forståelse af det periodiske system",
+    "producer": "Krogårdskolen",
+    "link" : "http://www.krogaardskolen.dk/Faelles/Ugeplan/201034/09B/Det%20periodiske%20system%20-%20opgaver%202.doc"
+    },
+    {
+    "title": "Grundstoffer i hverdagen",
+    "topics": ["grund"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "opnå bedre forståelse for hvor de grundstoffer vi har i vores hverdag kommer fra og vide hvilke grundstoffer hverdagsgenstande består af",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/GrundstofferIHverdagen.pdf"
+    },
+    {
+    "title": "Basale grundstoffer",
+    "topics": ["grund"],
+    "subjects": ["fk","b"],
+    "type": "exp",
+    "desc": "Ide: Undersøgelse af de basale grundstoffer for liv. Lav en top ti over de vigtigste grundstoffer, for liv, for at vi kan leve det liv vi lever, etc. Hvor befinder grundstofferne sig, i hvor store mængder og hvordan indsamler vi det? Hvor og hvordan blev det dannet?",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Demonstration af transitmetoden",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Forsøg der beskriver, gengiver og demonstrerer transitmetoden og derved giver en forståelse om hvordan astofysikere arbejder",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/Transitmodellen_V2.pdf"
+    },
+    {
+    "title": "Tæl galakser",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Ved at tælle galakser på i et lille udsnit afuniverset, kan vi estimere det samlede antal af galakser i det synlige univers og derved få en forståelse for universets skala",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/TaelGalakser.pdf"
+    },
+    {
+    "title": "Planetkort",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Gennem spillene få eleverne en generel forståelse for opbygningen af solsystemet med dets objekter",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/Planetkortene.pdf"
+    },
+    {
+    "title": "Meteornedslag og månens overflade",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Formålet med denne øvelse er at undersøge hvordan masse og hastighed af asteroider spiller enrolle på størrelsen af kratere og dermed give en skala for størrelsen af universets krafter",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/Meteornedslag.pdf"
+    },
+    {
+    "title": "Rumrejser – at være i rummet",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Ide: At vende sig til at der ikke findes 'op' og 'ned' i rummet. Forsøget går ud på, at give eleverne en sans for mangel på retning, altså isotropi",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Rumrejser – byg en vandraket",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Ide: Eleverne skal selv konstuere en vandraket og se hvor effektivt de kan lave den. Hernæst kan man perspektivere til faktiske raketter",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Solsystemets størrelse",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Ide: Eleverne skal genskabe størrelsesforskellene i solsystemet i klasselokaet og derved opnår en idé om skalaerne i solsystemer og galakser",
+    "producer": "BBNF",
+    "link" : ""
+    },
+
+    {
+    "title": "Albedo og temperatur",
+    "topics": ["jorden"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Øvelsen går ud på at undersøge hvordan energi (solens stråler) påvirker forskellige overflader og hvordan dette påvirker albedoen",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/albedo.pdf"
+    },
+    {
+    "title": "Åbningen af Nordatlanten",
+    "topics": ["jorden"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "At forstå de pladetektoniske kræfter på Jorden og forstå hvordan man kan benytte bjergarter til at undersøge Jordens fortid.",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/AabningAfNordatlanten.pdf"
+    },
+    {  
+    "title": "Geologiske tidsaldre",
+    "topics": ["jorden"],
+    "subjects": ["g","b"],
+    "type": "exp",
+    "desc": "Denne øvelse vil give en generel forståelse for jordens forskellige geologiske tidsaldre, kontinenternes skiftende placering, landskabets og klimaets udvikling, samt dyr og planter oprindelse og udvikling.",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/GeologiskeTidsaldre.pdf"
+    },
+    {
+    "title": "Tidlinje for Jorden",
+    "topics":["jorden"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Ide: Visuel tidslinje af de geologiske tider, og større begivenheder på geologisk skala i forhold til Jordens historie",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Grønlandspumpen",
+    "topics": ["atmo"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Denne øvelse vil give eleven en generel forståelse af vand og dets påvirkning af jorden",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/groenlandspumpen.pdf"
+    },
+    {
+    "title": "Is i og over vand",
+    "topics": ["atmo"],
+    "subjects": ["fk","g"],
+    "type": "exp",
+    "desc": "Denne øvelse vil give eleven en forståelse for hvordan smeltning af is foregår og dets effekt på stor skala",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/afsmeltning.pdf"
+    },
+    {
+    "title": "Vands tilstandsformer",
+    "topics": ["atmo"],
+    "subjects": ["fk"],
+    "type": "exp",
+    "desc": "Denne øvelser vil give eleven en forståelse for vands forskellige tilstandsformer og deres respektive egenskaber",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/vand_tilstandsformer.pdf"
+    },
+    {
+    "title": "Gletsjeres tilbagetrækning",
+    "topics": ["atmo"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Ved hjælp af ICE FRONTIERS (Udviklet af Statens Naturhistoriske Museum) vil dette forsø give eleverne en forståelse for udviklingen i Grøndlands gletsjere over en længere årrække",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/gletsjerstilbagetraekning.pdf"
+    },
+    {
+    "title": "Danmarks morfologi",
+    "topics": ["atmo"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Ved hjælp af en lang række kort, vil eleven i dette forsøg få en forståelse for udviklingen af det danske land over en lang årrække og hvilke faktorer der har haft indflydelse",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/danmarks_geomorfologi.pdf"
+    },
+    {
+    "title": "Gletsjerbevægelser under sidste istid",
+    "topics": ["atmo"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Ved hjælp af ledeblokket undersøges gletsjernes fremmarch under sidste istid",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/GletsjerBevaegelserUnderSidsteIstid.pdf"
+    },
+    {
+    "title": "Erosionsforsøg",
+    "topics": ["atmo"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Denne øvelse vil give eleven en forståelse for erosion og hvordan små krafter over lang tid kan have en stor effekt",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/Erosionsforsoeg.pdf"
+    },
+    {
+    "title": "Vand til jorden",
+    "topics": ["atmo"],
+    "subjects": ["fk","g"],
+    "type": "exp",
+    "desc": "Ide: Meteorer har bragt vand til jorden (se øvelse om meteornedslag). Hvor stor andel af kometer er vand? Udregne mængden af vand på Jordens overflade (se på kort). Hvor store er kometer i gennemsnit? Find et overslag for hvor mange kometnedslag, der i så fald har været for at opnå den mængde vand der er på Jorden i dag. Sammenlign med at tælle kratere på månen. Se på hvordan man kan bestemme hvor vandet kommer fra ud fra andelen af tungt vand (svær opgave)",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Osmose i kartofler",
+    "topics": ["grund"],
+    "subjects": ["fk","b"],
+    "type": "exp",
+    "desc": "Eleverne arbejder med simple og spektakulære forsøg, der illustrerer, hvad der sker i osmose, og de får viden om omvendt osmose.",
+    "producer": "astra",
+    "link" : "https://astra.dk/tildinundervisning/hvad-er-osmose"
+    },
+    {
+    "title": "Udfældning",
+    "topics": ["firstlife"],
+    "subjects": ["fk","b"],
+    "type": "exp",
+    "desc": "Ide: For det første liv på jorden er udfældning i vandige opløsninger en del af de første skridt imod og under tiden med det tidligste liv",
+    "producer": "BBNF",
+    "link" : ""
+    },
+
+    {
+    "title": "Fotosyntese i glas",
+    "topics": ["foto",],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Ved hjælp af simpelt forsøg sættes der fokus på processerne i fotosyntesen og hvorvidt eleverne kan opstille de rette kontrolforsøg",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/fotosyntese.pdf"
+    },
+    {
+    "title": "Vandpest i reagensglas",
+    "topics": ["foto"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Ide: Ved hjælp af en simpel opsætning kan eleverne se og dermed forstå processen omkring fotosyntese på et mere dybdegående niveau",
+    "producer": "BBNF",
+    "link" : ""
+    },
+
+    {
+    "title": "Bakterier i petriskål",
+    "topics": ["cell"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Ide: Ved dette simple eksperiment kan eleverne få en forståelse for verdenen af mikrober interagerer med os og hvordan bakterier formerer og udvikler sig samt hvordan de bekæmpes",
+    "producer": "BBNF",
+    "link" : ""
+    },
+
+    {
+    "title": "Mose DNA ud af bananer",
+    "topics": ["dna"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Formålet ved dette forsøg er at give eleverne mulighed for at se DNA stregne med det blotte øje",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/banan.pdf"
+    },
+    {
+    "title": "Sammenligne DNA fra mennesker og bananer",
+    "topics": ["dna"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "I dette forsøg vil eleven få en forståelse af hvor mange gener mennesket deler med andre organismer. I dette eksempel bruges en banan",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/BananVSMenneske.pdf"
+    },
+
+
+    {
+    "title": "Adaptation",
+    "topics": ["evo"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "I dette forsøg vil eleven få en generel forståelse for termet adaption og hvad det medfører",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/adaptation.pdf"
+    },
+    {
+    "title": "Konkurrence",
+    "topics": ["evo"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Formålet med øvelsen er at give eleven en generel viden om konkurrence i den vilde natur",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/konkurrence.pdf"
+    },
+    {
+    "title": "Artsdannelse",
+    "topics": ["arter","evo"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Øvelsen skal give eleven en generel forståelse af forskellige faktorer som påvirkes af klimatiske forandringer og som dernæst kan påvirke forskellige økosystemer og deres sammensætning",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/artssammensaetning.pdf"
+    },
+    {
+    "title": "Fylogenitræer",
+    "topics": ["arter"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Formålet med øvelsen er at forstå de principielle principper bag fylogeni og fylogenitræer",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/Fylogeni.pdf"
+    },
+    {
+    "title": "Evolutionsleg med slik",
+    "topics": ["evo","arter"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Gennem aktiviteten opnås forståelse af Darwins teori for evolution",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/EvolutionsLeg.pdf"
+    },
+    {
+    "title": "Simulation af evolution",
+    "topics": ["evo"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Ved hjælp af computer simuleringer kan vi se hvordan gener over mange generationer 'retter' sig ind efter forholdene",
+    "producer": "BBNF",
+    "link" : "https://beltoforion.de/article.php?a=simulated_evolution"
+    },
+    {
+    "title": "Tidslinjer for arter og evolution",
+    "topics": ["evo","arter"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Ide: Visuel fremstilling af tidslinjen for liv på jorden, med de vigtigste begivenheder",
+    "producer": "",
+    "link" : ""
+    },
+    {
+    "title": "Pattedyrs sekundære ganetag",
+    "topics": ["arter"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Ide: Pattedyr har patter hvor ungerne kan dige, men ligeså vigtigt for pattedyrene er at de kan trække vejret og sutte samtidigt. Dette eksperiment efterviser dette hos mennesker",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Invasive arter",
+    "topics": ["arter"],
+    "subjects": ["b","g"],
+    "type": "exp",
+    "desc": "Ide: Historier om invasive arter og menneskers forsøg på at forhindre dette. Øvelse i at finde arter som ikke naturligt ville være i e given lokation",
+    "producer": "BBNF",
+    "link" : ""
+    },
+
+
+    {
+    "title": "PCA analyse",
+    "topics": ["forfader"],
+    "subjects": ["b","g"],
+    "type": "exp",
+    "desc": "Under udarbejdelse: Eleverne skal, ved hjælp af en Principal Component Analysis (PCA), undersøge eventuelle forskelle eller ligheder mellem to typer DNA",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Befolkningsgrupper",
+    "topics": ["forfader"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Ide: Tibets befolkning som har to ekstra gener, som gør at de kan leve i meget høje højder. Brug data som beskriver forskellen mellem kinesere, danskere og tibethanernes gener",
+    "producer": "BBNF",
+    "link" : ""
+    },
+
+    {
+    "title": "Det Moderne Menneskes Succes?",
+    "topics": ["modern"],
+    "subjects": ["b","g"],
+    "type": "exp",
+    "desc": "Formålet med denne øvelse er at udvide elevernes forståelse for det moderne menneskes vej til toppen af fødekæden og give dem en bedre fornemmelse for de mekanismer, der har været afgørende for menneskets udvikling",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/DetModerneMenneskeSucces.pdf"
+    },
+    {
+    "title": "Den antropocæne tidsalder",
+    "topics": ["modern"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Denne øvelse giver eleverne en bedre forståelse af menneskets enorme påvirkning af Jordens overflade, den antropocæne tidsalder.",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/Antropocene.pdf"
+    },
+    {  
+    "title": "Hvor er succes?",
+    "topics": ["modern"],
+    "subjects": ["g"],
+    "type": "exp",
+    "desc": "Ide: Kort som viser landbrugsudvikling, demografi, landskabsformer og geomorfologi",
+    "producer": "BBNF",
+    "link" : ""
+    },
+    {
+    "title": "Hvorfor succes?",
+    "topics": ["modern"],
+    "subjects": ["g"],
+    "type": "link",
+    "desc": "Ide: Med udgangspunkt i bogen 'Guns, Germs and Steel' kunne man dykke ned i argumenterne for hvorfor der har været stor succes i Eurasien og mindre i andre steder af verden",
+    "producer": "BBNF",
+    "link" : ""
+    },
+
+
+
+
+    {
+    "title": "Grundstoffernes oprindelse",
+    "topics": ["grund",],
+    "subjects": ["fk"],
+    "type": "video",
+    "desc": "Fysikstuderende fortæller fascineret om hvor grundstoffernes bliver dannet.",
+    "producer": "BBNF",
+    "link" : "https://youtu.be/jlEG7_nkkLY"
+    },
+    {
+    "title": "Exoplanter",
+    "topics": ["exo",],
+    "subjects": ["fk"],
+    "type": "video",
+    "desc": "Fysikstuderende fortæller nysgerrigt om exoplaneter.",
+    "producer": "BBNF",
+    "link" : "https://youtu.be/XaJgDhIBpdM"
+    },   
+    {
+    "title": "Rumfart",
+    "topics": ["galakser",],
+    "subjects": ["fk"],
+    "type": "video",
+    "desc": "Fysikstuderende fortæller om sit yndlingsemne: Rumfart.",
+    "producer": "BBNF",
+    "link" : "https://youtu.be/bOWDqpXwUP4"
+    },    
+    {
+    "title": "Naturgeografi (Geografi 1)",
+    "topics": ["jorden","modern","atmo"],
+    "subjects": ["g"],
+    "type": "video",
+    "desc": "Geografistuderende fortæller (på moderne vis) om forskningsfeltet Naturgeografi.",
+    "producer": "BBNF",
+    "link" : "https://youtu.be/UEoX-44CDug"
+    },    
+    {
+    "title": "Kulturgeografi (Geografi 2)",
+    "topics": ["jorden","modern"],
+    "subjects": ["g"],
+    "type": "video",
+    "desc": "Geografistuderende fortæller (på moderne vis) om forskningsfeltet Kulturgeografi.",
+    "producer": "BBNF",
+    "link" : "https://youtu.be/Lm6Brg5ZvrY"
+    },  
+    {
+    "title": "Klimaforandringer (Geografi 3)",
+    "topics": ["jorden","modern","atmo"],
+    "subjects": ["g"],
+    "type": "video",
+    "desc": "Geografistuderende fortæller engagerende om et af deres vigtige emner: Klimaforandringer.",
+    "producer": "BBNF",
+    "link" : "https://youtu.be/1tmVhUWF8fw"
+    },  
+
+
+    {
+    "title": "Anja Andersen fortæller om tiden lige efter Big Bang",
+    "topics": ["bigbang"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Anja Andersen gennemgår overfladisk begivenhederne lige efter Big Bang (03:49)",
+    "producer": "vimeo.com",
+    "link" : "https://vimeo.com/109339700"
+    },
+    {
+    "title": "Online kursus svarende til Big Bang til Naturfag (engelsk)",
+    "topics": ["bigbang"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Online kursus med cirka samme indhold som Big Bang til Naturfag. Kurset af udviklet af KU og foregår på engelsk og er opdelt i fire ugers pensum.",
+    "producer": "Coursera",
+    "link" : "https://www.coursera.org/learn/origins-universe-solarsystem"
+    },
+    {
+    "title": "Tilgængelige oversigter til naturfag",
+    "topics": ["andet"],
+    "subjects": ["fk","g"],
+    "type": "link",
+    "desc": "En fin hjemmeside med mange emner om matematik, videnskab samt sprog, historie og kunst. Hjemmesiden er på engelsk og er lavet til mange niveauer.",
+    "producer": "thinkzone",
+    "link" : "http://thinkzone.wlonk.com/index.htm"
+    },
+    {
+    "title": "Spørg om fysik",
+    "topics": ["andet"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Introduktion til fyisk på KU. Herunder en masse ofte stillede spørgsmål og oversigter over de forskellige studieretninger.",
+    "producer": "NBI",
+    "link" : "http://www.nbi.ku.dk/spoerg_om_fysik/"
+    },
+    {
+    "title": "Gratis undervisningen i mange emner (engelsk)",
+    "topics": ["andet"],
+    "subjects": ["fk","b","g"],
+    "type": "link",
+    "desc": "Khan Academy er et meget udbredt project, som laver enorme mængde materialer til alle typer videnskab og matematik. Deres youtube kanal kan også anbefales.",
+    "producer": "Khanacademy",
+    "link" : "https://da.khanacademy.org/science"
+    },
+    {
+    "title": "Gratis onlinekursus: Astrobiologi og søgningen for de ekstraterritorialet liv (engelsk)",
+    "topics": ["exo","firstlife"],
+    "subjects": ["fk","b"],
+    "type": "link",
+    "desc": "Et online kursus af coursera om Astrobiologi, liv i rummte og vores søgning efter det. Kurset er på engelsk.",
+    "producer": "StudyNova",
+    "link" : "https://studynova.com/lecture/ib-physics-sl-free-lectures/"
+    },
+    {
+    "title": "Engelske fysiskkurser om diverse emner (Engelsk)",
+    "topics": ["andet"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Indeholder kurser om mekanik, termodynamik, bølgedynamik, kvantemekanik og astrofysik.",
+    "producer": "Coursera",
+    "link" : "https://www.coursera.org/learn/astrobiology"
+    },
+    {
+    "title": "Mange gode aktiviteter på norsk og engelsk",
+    "topics": ["galakser","sol","jorden"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Emner indeholder bl.a. Solsystemet, rumteknologi, eksoplaneter, lys og bølger samt programmeing.",
+    "producer": "ESERO",
+    "link" : "http://esero.no/ressurser/grunnskolen/"
+    },
+    {
+    "title": "Big Bang og universet",
+    "topics": ["bigbang"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Oversigt over Experimentariums Big Bang udstilling med fokus på partikel fyisk, herunder partikler, mørkt stof, og universets historie.",
+    "producer": "Experimentarium",
+    "link" : "https://www.experimentarium.dk/skolemateriale/undervisningsforloeb-big-bang"
+    },
+    {
+    "title": "Videoklip og elevspørgsmål om universet",
+    "topics": ["bigbang","galakser","sol"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Fokus på universet og vores solsystem, hvor spørgsmålene får eleverne til at tænke kritisk om disse.",
+    "producer": "DR",
+    "link" : "http://www.dr.dk/skole/fysik-og-kemi/elevopgaver-universet"
+    },
+    {
+    "title": "Stjernekammeret: Københavns Kommunes Skoleplanetarium",
+    "topics": ["bigbang","sol"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Underviser, Carsten Andersen vil vise stjernerne og planeterne ved hjælp af planetarieprogrammet Stellarium. Carsten bruger også videoer og astronomiske billeder. I vil lave sjove forsøg med astronomi.",
+    "producer": "Bellahøj Skole",
+    "link" : "https://bellahoej.skoleporten.dk/sp/277074/text/stjernekammeret%20forside"
+    },
+    {
+    "title": "Rumfart og universet",
+    "topics": ["sol"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Side fra DTU der omhandler solsystemet, rumfart, udvikling, rumteknologi og universet.",
+    "producer": "DTU Space",
+    "link" : "http://www.rummet.dk/folkeskole"
+    },
+    {
+    "title": "Effekten af et meteornedslag",
+    "topics": ["atmo","jorden"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Online simuleringer af effekten af meteornedslag.",
+    "producer": "impact.ese.ic.ac.uk",
+    "link" : "https://impact.ese.ic.ac.uk/ImpactEarth/ImpactEffects/"
+    },
+    {
+    "title": "Spørgsmål om fysik og astronomi",
+    "topics": ["bigbang","galakser","sol","jorden"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Stor oversigt over spørgsmål og svar fra en række forskellige emner indenfor fysikken og astrobiologi.",
+    "producer": "AU",
+    "link" : "http://blogs.au.dk/askastro/"
+    },
+    {
+    "title": "`20 mia. km: Verdens længste rejse er stadig i gang` - artikel om Voyager-missionen",
+    "topics": ["sol","atmo"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Artikel fra DR om Voyager-missione som går over både resultater og opbygningen af Voyager.",
+    "producer": "DR",
+    "link" : "https://www.dr.dk/nyheder/viden/naturvidenskab/20-mia-km-verdens-laengste-rejse-er-stadig-i-gang"
+    },
+    {
+    "title": "Universe Today - nyhedsbrev om universet (engelsk)",
+    "topics": ["bigbang","galakser","sol"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Nyhedsbreve om alt fra Big Bang til patikelfyisk og acceleratorer.",
+    "producer": "universetoday.com",
+    "link" : "https://www.universetoday.com/"
+    },
+    {
+    "title": "Jorden set fra rummet",
+    "topics": ["jorden","galakser"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Liste med 25 fantastiske billeder af Jorden taget fra rummet (her er intet photoshoppet)",
+    "producer": "sciencealert.com",
+    "link" : "https://www.sciencealert.com/25-of-the-most-iconic-images-of-earth-ever-taken-from-space"
+    },
+    {
+    "title": "Byg et tågekammer (engelsk)",
+    "topics": ["bigbang"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Vejledning til hvordan man bygger sit eget tågekammer så eleverne fysisk kan se partiklers henfald (ESA, engelsk)",
+    "producer": "ESA",
+    "link" : "http://www.esa.int/Education/Teachers_Corner/Cloud_chamber_-_radioactivity_in_a_cosmic_setting_Teach_with_space_P03"
+    },
+    {
+    "title": "Exoplaneter (bog fra systime, men online adgang til planetdata)",
+    "topics": ["exo"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Stor undervisningsside om exoplaneter med videoklip, opgaver og cases. Tilhørende guide til brug af planetdata: http://bigbangnaturfag.dk/docs/materiale/andet/Hans_Kjeldsen_2017_08_11_EXO_DATA.pdf",
+    "producer": "Systime",
+    "link" : "https://exo.systime.dk"
+    },
+    {
+    "title": "Astrobiologi, liv i rummet",
+    "topics": ["bigbang","jorden","atmo"],
+    "subjects": ["fk","b"],
+    "type": "link",
+    "desc": "32 siders dybdegående forklaring fra Big Bang til det moderne menneske. Kan være læsetungt.",
+    "producer": "Fysikforeningen",
+    "link" : "http://www.fys.dk/nfa/04/heftet/index.php"
+    },
+    {
+    "title": "App: Exoplaneter (kun til iPhones)",
+    "topics": ["exo"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Få en opdateret optælling af exoplaneter på din iPhone",
+    "producer": "Hanno Rein",
+    "link" : "https://apps.apple.com/us/app/exoplanet/id327702034"
+    },
+    {
+    "title": "Exoplaneter fundet med Kepler og CoRoT",
+    "topics": ["exo"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Videnskabelig artikel fra tidsskriftet KVANT. Omhandler Exoplaneter og hvordan de opdages. Kan være svær læsning.",
+    "producer": "KVANT",
+    "link" : "http://kvant.dk/upload/kv-2010-3/kv-2010-3-HK-exoplaneter.pdf"
+    },
+    {
+    "title": "Korte film om Mars (engelsk)",
+    "topics": ["jorden","atmo"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "15 små film om fysikken omrking Mars.",
+    "producer": "NASA",
+    "link" : "https://mars.nasa.gov/multimedia/videos/?page=0&per_page=25&order=pub_date+desc&search=&condition_1=1%3Ais_in_resource_list&category=53%3A199"
+    },
+    {
+    "title": "NASAs exoplanet arkiv (engelsk)",
+    "topics": ["exo"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Større arkiv om exoplaneter af NASA.",
+    "producer": "NASA",
+    "link" : "https://exoplanetarchive.ipac.caltech.edu/"
+    },
+    {  
+    "title": "Lyskurver fra Kepler-missionen (engelsk)",
+    "topics": ["galakser"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Space Telescope Science Institute fortælle om Kepler teleskopet, dets restultater og hvordan man regner på bølger.",
+    "producer": "STScI",
+    "link" : "http://archive.stsci.edu/kepler/"
+    },
+    {
+    "title": "Data om solen fra SOHO-missionen (engelsk)",
+    "topics": ["sol"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "SOHO (Solar and heliscpheric observatory) resultater og analyser",
+    "producer": "NASA",
+    "link" : "https://sohowww.nascom.nasa.gov/"
+    },
+    {
+    "title": "Videoklip og elevspørgsmål om jordens indre",
+    "topics": ["jorden","atmo"],
+    "subjects": ["fk","g"],
+    "type": "link",
+    "desc": "Fokus på jorden og vores atmosfære, hvor spørgsmålene får eleverne til at tænke kritisk om disse.",
+    "producer": "DR",
+    "link" : "https://www.dr.dk/skole/geografi/elevopgaver-jordens-indre"
+    },
+    {
+    "title": "Online program om pladetektonik (norsk)",
+    "topics": ["jorden"],
+    "subjects": ["g"],
+    "type": "link",
+    "desc": "Netbaseret undervisning med animationer og interaktive opgaver om pladetektonik",
+    "producer": "Viten.no",
+    "link" : "https://www.viten.no/vitenprogram/vis.html?prgid=uuid:2D0B88A0-3CCB-D849-5A4C-00006B2A11AA&tid=uuid:2D0B88A0-3CCB-D849-5A4C-00006B2A11AA"
+    },
+    {
+    "title": "Naturlandskabet i Odsherred",
+    "topics": ["jorden"],
+    "subjects": ["g"],
+    "type": "link",
+    "desc": "Geografisk beskrivelse af naturlandskabet i Odsherred (Nord-vest sjælland)",
+    "producer": "Geopark Odsherred",
+    "link" : "https://www.geoparkodsherred.dk/odsherred/landskab-1"
+    },
+    {
+    "title": "Atmosfærens betydning og energistrømme",
+    "topics": ["atmo"],
+    "subjects": ["g","b"],
+    "type": "link",
+    "desc": "Lærervejledning til gruppearbejde",
+    "producer": "Erland Andersen",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/andet/Laerervejledning_AtmosfaerensBetydning_Energistromme.pdf"
+    },
+    {
+    "title": "Atmosfærens betydning og energistrømme",
+    "topics": ["atmo"],
+    "subjects": ["g","b"],
+    "type": "link",
+    "desc": "Arbejdsark om gruppearbejde",
+    "producer": "Erland Andersen",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/andet/Arbejdsark_AtmosfaerensBetydning_Energistromme.pdf"
+    },
+    {
+    "title": "Center for Is og klima",
+    "topics": ["atmo"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Hjemmeside for Center for Is og Klima, NBI, KU. Inderholder massere af information, videoer og artikler.",
+    "producer": "NBI",
+    "link" : "http://www.isogklima.nbi.ku.dk/formidling/"
+    },
+    {
+    "title": "Online program om fotosyntese",
+    "topics": ["foto"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Netbaseret undervisning med animationer og interaktive opgaver om fotosyntese og tilhørende biologi.",
+    "producer": "Viten.no",
+    "link" : "https://www.viten.no/vitenprogram/vis.html?prgid=uuid:2E0DBE34-CFD5-1DA8-9AD8-0000005960D0&tid=uuid:2E0DBE34-CFD5-1DA8-9AD8-0000005960D0&grp="
+    },
+    {
+    "title": "Online materiale om celler",
+    "topics": ["cell","dna"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Netbaseret undervisning med animationer og interaktive opgaver celler, DNA og liv.",
+    "producer": "BBNF",
+    "link" : "https://www.viten.no/vitenprogram/vis.html?prgid=uuid%3A778B5485-9B30-3B48-EAA7-00000C64BBC9&tid=uuid%3A778B5485-9B30-3B48-EAA7-00000C64BBC9"
+    },
+    {
+    "title": "Online materiale om celler i meteoritter (norsk)",
+    "topics": ["firstlife"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Netbaseret undervisning der giver anledning til elevkonstueret oplæg omkring celler i meteoritter.",
+    "producer": "naturfag.no",
+    "link" : "https://www.naturfag.no/undervisningsprogram/vis.html?tid=2149766"
+    },
+    {
+    "title": "Forsøg med gær",
+    "topics": ["cell","evo"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Forsøgsopstilling hvor gær analyseres som levende svamp.",
+    "producer": "Systime",
+    "link" : "https://bio.systime.dk/index.php?id=276"
+    },
+    {
+    "title": "Evolution observeret direkte i laboratorium",
+    "topics": ["evo"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Artikel",
+    "producer": "Ingeniøren",
+    "link" : "https://ing.dk/blog/evolution-observeret-direkte-i-laboratorium-89262"
+    },
+    {
+    "title": "Om sitet evolution.dk",
+    "topics": ["evt"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Oversigt og information omkring hjemmesiden 'evolution.dk'",
+    "producer": "Folkeskolen",
+    "link" : "https://www.folkeskolen.dk/56438/wwwevolutiondk"
+    },
+    {
+    "title": "Hvor er beviserne for evolution?",
+    "topics": ["evo"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Gennemgang af beviserne for evolutionsteorien. Generel diskussion om Darwinisme.",
+    "producer": "Videnskab.dk",
+    "link" : "https://videnskab.dk/sporg-videnskaben/hvor-er-beviserne-evolution"
+    },
+    {
+    "title": "TimeTree: Find seneste fælles stamform til arter (engelsk)",
+    "topics": ["evo","arter"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Online undersøgende værktøj for forskellige arters evolution gennem tiden.",
+    "producer": "Timetree",
+    "link" : "http://timetree.org/"
+    },
+    {
+    "title": "Artsdiversitet: Samling af billeder og info (engelsk)",
+    "topics": ["evo","arter"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Stor samling af billeder og info om en masse forskellige arter til sammenligning.",
+    "producer": "animaldiversity.org",
+    "link" : "https://animaldiversity.org/"
+    },
+    {
+    "title": "Forklaring af mange koncepter fra evolution til undervisning (engelsk)",
+    "topics": ["evo","arter"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Hjemmeside dedikeret til at forøge forståelse af evoluation, arter og hvordan de udviklger sig over tid.",
+    "producer": "University of California Museum of Paleontology",
+    "link" : "https://evolution.berkeley.edu/evolibrary/home.php"
+    },
+    {
+    "title": "Del af Origins-kursus: Bent Lindow fortæller om masseuddøen (engelsk)",
+    "topics": ["arter"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Videoforelæsning om masseuddøden (14:49)",
+    "producer": "Coursera, KU",
+    "link" : "https://www.coursera.org/lecture/origins-universe-solarsystem/9-5-mass-extinction-events-and-their-causes-part-1-bent-lindow-HcEHS"
+    },
+    {
+    "title": "Hvor kommer du fra? - 800 Gymnasieelevers DNA",
+    "topics": ["forfader"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Undersøgelse af 800 Gymnasieelevers DNA og resultaterne af efterfølgende analyse samt diskussion om DNA og menneskets udbredelse.",
+    "producer": "AU",
+    "link" : "http://hvorkommerdufra.dk/"
+    },
+    {
+    "title": "Beskrivelser af vores forfædre (engelsk)",
+    "topics": ["forfader","evo","dna"],
+    "subjects": ["b"],
+    "type": "link",
+    "desc": "Længere artikel om menneskets forfædre, DNA, evolution baseret på teorier og arkæologiske fund.",
+    "producer": "ZME Science",
+    "link" : "https://www.zmescience.com/science/timeline-human-evolutio-423/"
+    },
+    {
+    "title": "Spørg om fysik (IFA, AU)",
+    "topics": ["andet"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Mulighed for at stille spørgsmål til fysikere, og læse en lang række af tidligere svar",
+    "producer": "AU",
+    "link" : "https://phys.au.dk/spoerg-om-fysik-og-astronomi/"
+    },
+    {
+    "title": "Diverse oplæg af forskere fra Niels Bohr Institutet (NBI)",
+    "topics": ["andet"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "Stor samling af professionelt filmede foredrag af forskere på Niels Bohr Institutet",
+    "producer": "NBI, KU",
+    "link" : "https://www.nbi.ku.dk/sciencexplorer/"
+    },
+    {
+    "title": "Atomets historie og kvantekassen (DFKF København/Sjælland)",
+    "topics": ["grund"],
+    "subjects": ["fk"],
+    "type": "link",
+    "desc": "",
+    "producer": "BBNF",
+    "link" : "https://fysik-kemi.dk/kbhsj/NielsBohr100aar/AtometsHistorie.html"
+    },
+    {
+    "title": "Hans Kjeldsen, afholdt på workshop 1 (og alle de film han viste)",
+    "topics": ["exo"],
+    "subjects": ["fk","g"],
+    "type": "link",
+    "desc": "",
+    "producer": "BBNF",
+    "link" : "http://astro.phys.au.dk/hans/Aarhus_2017_08_11/"
+    },
+]};
