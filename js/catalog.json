@@ -358,7 +358,7 @@ var catalog = {"items": [
     },
     {
     "title": "Osmose i kartofler",
-    "topics": ["grund"],
+    "topics": ["cell"],
     "subjects": ["fk","b"],
     "type": "exp",
     "desc": "Eleverne arbejder med simple og spektakulære forsøg, der illustrerer, hvad der sker i osmose, og de får viden om omvendt osmose.",
