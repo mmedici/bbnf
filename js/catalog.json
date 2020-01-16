@@ -171,7 +171,7 @@ var catalog = {"items": [
     "topics": ["grund"],
     "subjects": ["fk"],
     "type": "exp",
-    "desc": "opnå bedre forståelse for hvor de grundstoffer vi har i vores hverdag kommer fra og vide hvilke grundstoffer hverdagsgenstande består af",
+    "desc": "Opnå bedre forståelse for hvor de grundstoffer vi har i vores hverdag kommer fra og vide hvilke grundstoffer hverdagsgenstande består af",
     "producer": "BBNF",
     "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/GrundstofferIHverdagen.pdf"
     },
