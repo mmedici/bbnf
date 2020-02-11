@@ -650,7 +650,7 @@ var catalog = {"items": [
     "link" : "https://vimeo.com/109339700"
     },
     {
-    "title": "Online kursus svarende til Big Bang til Naturfag (engelsk)",
+    "title": "Coursera: Origins (engelsk)",
     "topics": ["bigbang"],
     "subjects": ["fk"],
     "type": "link",
@@ -659,7 +659,7 @@ var catalog = {"items": [
     "link" : "https://www.coursera.org/learn/origins-universe-solarsystem"
     },
     {
-    "title": "Tilgængelige oversigter til naturfag",
+    "title": "Thinkzone: Tilgængelige oversigter til naturfag",
     "topics": ["andet"],
     "subjects": ["fk","g"],
     "type": "link",
@@ -668,21 +668,21 @@ var catalog = {"items": [
     "link" : "http://thinkzone.wlonk.com/index.htm"
     },
     {
-    "title": "Spørg om fysik",
+    "title": "Spørg om fysik (NBI)",
     "topics": ["andet"],
     "subjects": ["fk"],
     "type": "link",
-    "desc": "Introduktion til fyisk på KU. Herunder en masse ofte stillede spørgsmål og oversigter over de forskellige studieretninger.",
+    "desc": "Introduktion til fysik på KU. Herunder en masse ofte stillede spørgsmål og oversigter over de forskellige studieretninger.",
     "producer": "NBI",
     "link" : "http://www.nbi.ku.dk/spoerg_om_fysik/"
     },
     {
-    "title": "Gratis undervisningen i mange emner (engelsk)",
+    "title": "Khan Academy: Gratis undervisningen i mange emner (engelsk)",
     "topics": ["andet"],
     "subjects": ["fk","b","g"],
     "type": "link",
-    "desc": "Khan Academy er et meget udbredt project, som laver enorme mængde materialer til alle typer videnskab og matematik. Deres youtube kanal kan også anbefales.",
-    "producer": "Khanacademy",
+    "desc": "Et meget udbredt projekt, som laver enorme mængde materialer til alle typer videnskab og matematik. Deres youtube kanal kan også anbefales.",
+    "producer": "KhanAcademy",
     "link" : "https://da.khanacademy.org/science"
     },
     {
@@ -975,7 +975,7 @@ var catalog = {"items": [
     },
     {
     "title": "Om sitet evolution.dk",
-    "topics": ["evt"],
+    "topics": ["evo"],
     "subjects": ["b"],
     "type": "link",
     "desc": "Oversigt og information omkring hjemmesiden 'evolution.dk'",
