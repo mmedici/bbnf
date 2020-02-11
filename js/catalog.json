@@ -395,13 +395,31 @@ var catalog = {"items": [
     },
 
     {
-    "title": "Bakterier i petriskål",
+    "title": "Agarplader til bakterieforsøg",
     "topics": ["cell"],
     "subjects": ["b"],
     "type": "exp",
-    "desc": "Ide: Ved dette simple eksperiment kan eleverne få en forståelse for verdenen af mikrober interagerer med os og hvordan bakterier formerer og udvikler sig samt hvordan de bekæmpes",
+    "desc": "Læs her forskellige måder at producere eller skaffe agarplader til diverse bakterieforsøg",
     "producer": "BBNF",
-    "link" : ""
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/AgarpladerTilBakterieForsog.pdf"
+    },
+    {
+    "title": "Tilstedeværelse og bekæmpelse af bakterier",
+    "topics": ["cell"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "Eleverne får en forståelse for hvordan bakterier interagerer med os og hvordan de formerer og udvikler sig samt hvordan de bekæmpes",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/TilstedevaeelseBekaembelseAfBakterier.pdf"
+    },
+    {
+    "title": "Modeller af en celle",
+    "topics": ["cell"],
+    "subjects": ["b"],
+    "type": "exp",
+    "desc": "lære forskelle og ligheder mellem celletyper med hensyn til deres organeller og betydningen af disse.",
+    "producer": "BBNF",
+    "link" : "http://bigbangnaturfag.dk/docs/materiale/idekatalog/fra_bbnf/ModellerAfEnCelle.pdf"
     },
 
     {
