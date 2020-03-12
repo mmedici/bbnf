@@ -411,7 +411,9 @@ a:hover, a:active, a:focus {
 }
 
 #home h4 {
-  color: var(--bbnfblue);
+  color: var(--bbnfblue);  
+  margin-bottom: 30px;
+
 }
 
 #home .btn {
@@ -425,7 +427,9 @@ a:hover, a:active, a:focus {
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 13px 22px 11px 22px;
-    margin-top: 42px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -563,6 +567,10 @@ a:hover, a:active, a:focus {
 
 .index_text_main {
     margin-top: 36px;
+}
+
+.info_qoutes_main {
+    margin-top: 10px;
 }
 
 .alternate_color {
